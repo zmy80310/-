@@ -1,0 +1,53 @@
+<!--pages/mine/login/login.wxml--> 
+<view class="login">
+    <view class="row1">
+        <view class="row1-img"><image src="https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=3298547610,4207530033&fm=74&app=80&f=PNG&size=f121,121?sec=1880279984&t=87099158991420412377051dd0c73a67"></image></view>
+        <view class="center">小米账号登录</view>
+    </view>
+    <!--  -->
+    <view class="row2">
+      <view class="input">
+          <view class="item-account1">
+            <input type="number" class="inp1" placeholder="手机号" bindinput="tel"></input>
+          </view>
+          <view class="item-account2">
+            <input type="text" password  placeholder="密码" bindinput="pwo"></input> 
+          </view>
+          <view class="warn"><icon type="warn" size="15"></icon><text>请输入账号</text></view>
+      </view>
+      <view class="Log-Reg" bindtap="enter">登录</view>
+      <view class="Log" bindtap="login">注册</view>
+      <view class="yz li">
+        <view>立即注册</view>
+        <view>|</view>
+        <view>忘记密码？</view>
+      </view>
+    </view>
+<!--  -->
+    <view class="login-logo">
+      <view class="style">
+        <view class="line"></view>
+        <view class="log-style">其他登录方式</view>
+        <view class="line"></view>
+      </view>
+      <view class="style-img">
+        <view class="img-fir"></view>
+        <view class="img-sec"></view>
+        <view class="img-thr"></view>
+      </view>
+        <view class="describ">
+            <view class="active">简体</view>
+            <view class="cusom"></view>
+            <view>繁体</view>
+            <view class="cusom"></view>
+            <view>English</view>
+            <view class="cusom"></view>
+            <view>常见问题</view>
+            <view class="cusom"></view>
+            <view>隐私政策</view> 
+        </view>
+        
+    </view>
+
+
+</view>

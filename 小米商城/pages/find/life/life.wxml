@@ -1,0 +1,23 @@
+<!--pages/find/life/life.wxml-->
+ <view class="white">
+    <view class="center">
+      <text>面积</text>
+      <view class="triangle"></view>
+    </view>
+ </view>
+<view class="white">
+    <view class="center">
+      <text>户型</text>
+      <view class="triangle"></view>
+    </view>
+ </view>
+ <view class="white">
+    <view class="center">
+      <text>预算</text>
+      <view class="triangle"></view>
+    </view>
+ </view>
+ <view class="go">
+  <view class="go1">开启智能方案</view>
+  <view class="go2">历史记录</view>
+ </view>

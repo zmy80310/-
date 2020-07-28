@@ -1,0 +1,120 @@
+/* pages/home/info/info.wxss */
+#info{
+  background: #eee;
+}
+.swiper{
+  width:100%;
+  height:600rpx;
+}
+.info-nav{
+  width:100%;
+  background-color: #ffffff;
+  position: relative;
+}
+.shop-tit{
+  font-size: 34rpx;
+  height:40rpx;
+  line-height: 40rpx;
+  margin-left:24rpx;
+  width:100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.shop-des{
+  color: #cccccc;
+  font-size: 24rpx;
+  height:40rpx;
+  line-height: 40rpx;
+  margin-left:24rpx;
+  width:100%;
+   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.shop-pri{
+  color:red;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  height:40rpx;
+  margin-left:24rpx;
+  width:100%;
+}
+.infoImg{
+  width:30rpx;
+  height:30rpx;
+  position: absolute;
+  top: 15rpx;
+  right: 35rpx;
+}
+.info-fo{
+  width:100%;
+  height:300rpx;
+  margin-top:20rpx;
+  background: #ffffff;
+}
+.info-song{
+  width:100%;
+  height:80rpx;
+  line-height: 80rpx;
+}
+.infoT{
+  margin-left:20rpx;
+  font-size: 30rpx;
+  color:#666;
+}
+.infoT1{
+  margin-left:60rpx;
+}
+.info-img{
+  width:50rpx;
+  height:50rpx;
+  float:right;
+  margin-top:20rpx; 
+}
+.x{
+  width:94%;
+  height:1px;
+  background: #e5e5e5;
+  margin-left:20rpx;
+}
+
+.instrument-box{
+height:120rpx;
+margin-top:10rpx;
+}
+.instrument-bar{
+width:100%;
+height:120rpx;
+background: #fff;
+position:fixed;
+left:0;
+bottom: 0;
+display:flex;
+}
+.bar-car{
+width:120rpx;
+height:120rpx;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bar-car>image{
+width:60%;
+height:60%;
+}
+.bar-join,.bar-buy{
+width:315rpx;
+height:120rpx;
+color:#fff;
+line-height: 120rpx;
+font-size: 40rpx;
+text-align: center;
+}
+.bar-join{
+background:#ff3c00;
+}
+.bar-buy{
+background:#8f2901;
+}
+

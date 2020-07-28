@@ -1,0 +1,50 @@
+/* pages/find/life/life.wxss */
+page{
+   background: rgb(245, 242, 242);
+   padding: 20px 10px;
+}
+.triangle{
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid #999;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.white{
+  background-color: #fff;
+  width: 94%;
+  margin: 10px 0;
+}
+.center{ 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80px;
+}
+text{
+  font-size: 20px;
+  line-height: 82px;
+}
+.go{
+  position: absolute;
+  bottom: 20px;
+  width: 94%;
+
+}
+.go1{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  text-align: center;
+  color: #fff;
+  background: #ff6700;
+  opacity: 0.4;
+  border-radius: 7px;
+}
+.go2{
+  color: #999;
+  text-align: center;
+  font-size: 12px;
+}

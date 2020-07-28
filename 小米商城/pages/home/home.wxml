@@ -1,0 +1,55 @@
+<!--pages/home/home.wxml-->
+<view id="home">
+  <view class="bar-wrap">
+<!-- 状态栏(电池条)的高度在不同设备上是不一样的,所以为了更好的设配,需要动态读取状态栏高度 -->
+  <view class="status-bar bar" style="{{statusH}}"></view>
+  <!-- 通常情况下导航条高度为44px -->
+  <view class="navigation-bar bar">
+    <view class="logo-img"><image src="/img/logo.png" ></image></view>
+    <text class="logo-text">小米</text>
+    <view class="search-bar">
+      <icon type="search" class="bar-icon" color="#ccc"></icon>
+      <text class="bar-text">搜索商品</text>
+    </view>
+  </view>
+  </view>
+  <view style="{{barH}}"></view>
+<swiper class="sw" indicator-dots="true" autoplay="true" indicator-color="#fff" indicator-active-color="#ff6700" circular="true">
+    <swiper-item wx:for="{{list}}" wx:key="{{item.a}}" >
+      <image class="swiper" src="{{item.src}}"></image>
+    </swiper-item>
+</swiper>
+
+<view class="icon-wrap">
+    <view wx:for="{{banners}}" wx:key="{{item.a}}" class="icon-item">
+      <image src="{{item.src}}"></image>
+    <view style="font-size:30rpx">{{item.text}}</view>
+    </view>
+  </view>
+<view class="shop-top list-item">
+    <text class="list-tit">人气推荐</text>
+    <image class="shop-img-top" src="{{day.src}}"></image>
+    <view class="shop-tit">{{day.name}}</view>
+    <view class="shop-des">{{day.text}}</view>
+    <view class="shop-pri">¥{{day.price}}</view>
+    <shopitem wx:for="{{list_two}}" wx:key="{{item.x}}" myprop="{{item}}"></shopitem>
+</view>
+<view class="shop-love list-item">
+  <view class="list-tit" style="background:#cccccc">猜你喜欢</view>
+  <shopitem bindtap="cl" wx:for="{{list_one}}" wx:key="{{item.a}}" myprop="{{item}}"></shopitem>
+  </view>
+  <view class="shop-newspaper list-item">
+    <view class="list-tit">商城早报</view>
+    <image class="news-img" src="{{r.src}}"></image>
+    <view class="news-tit">晒出你的小米10</view>
+    <view class="news-footer">
+      <text class="news-time">1小时前</text>
+      <text class="news-info">2人参与讨论</text>
+    </view>
+  </view>
+  <view class="mi-des">始终坚持做"感动人心,价格厚道"的好产品</view>
+</view>
+
+
+
+

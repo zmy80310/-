@@ -1,0 +1,24 @@
+<view class="find">
+<!-- top -->
+<view class="fi-top">
+<view class="fitop-box" wx:for="{{findtop}}" bindtap="getchoose">
+<view class="fitop-img"><image src="{{item.src}}"></image></view>
+<text>{{item.name}}</text>
+</view>
+</view>
+<!-- content -->
+<view class="content">
+<view class="con-box" wx:for="{{find1}}" bindtap="goodsone">
+<view class="con-img"><image src="{{item.src}}"></image></view>
+<view class="con-text"><text class="active">{{item.text}}</text><text>{{item.name}}</text></view>
+</view>
+<view class="con-box" wx:for="{{find2}}" bindtap="getprize">
+<view class="con-img"><image src="{{item.src}}"></image></view>
+<view class="con-text"><text class="active">{{item.text}}</text><text>{{item.name}}</text></view>
+</view>
+<view class="con-box" wx:for="{{find3}}" bindtap="getlife">
+<view class="con-img"><image src="{{item.src}}"></image></view>
+<view class="con-text"><text class="active">{{item.text}}</text><text>{{item.name}}</text></view>
+</view>
+</view>
+</view>

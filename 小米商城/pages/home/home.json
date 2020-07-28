@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "shopitem":"../component/shopitem/shopitem"
+  },
+  "navigationStyle": "custom"
+}

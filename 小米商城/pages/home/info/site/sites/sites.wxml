@@ -1,0 +1,36 @@
+<!--pages/home/info/addres/newad/newad.wxml-->
+<view class="ad-wrap">
+<!-- one -->
+<view class="ad-one">
+<view class="peo">收货人</view>
+<view class="ad-nm">
+<text class="ad-name1">姓名</text>
+<input class="ad-name2" type="text" focus="" placeholder="真实姓名" bindinput="name" value="{{name}}"></input>
+</view>
+<view class="ad-nm">
+<text class="ad-name1">电话</text>
+<input class="ad-name2" type="text" focus="" placeholder="手机号码" bindinput="tel" value="{{tel}}"></input>
+</view>
+
+</view>
+<!-- two -->
+<view class="ad-two">
+<view class="peo">收获地址</view>
+<view class="ad-nm">
+<text class="ad-name1">地区信息</text>
+<input class="ad-name2" type="text" focus="" placeholder="选择 省/市/区" bindinput="cite" value="{{cite}}"></input>
+</view>
+<view class="ad-nm">
+<text class="ad-name1">详细地址</text>
+<input class="ad-name2" type="text" focus="" placeholder="街道门牌、楼层房间号等信息" bindinput="address" value="{{address}}"></input>
+</view>
+
+</view>
+<!-- 尾部 -->
+<view class="bottom" bindtap="newad" wx:if="{{lock==true}}">保存收货地址</view>
+
+<view class="bottom1" wx:if="{{look==true}}">
+  <view class="move" bindtap="move">删除</view>
+  <view class="item" bindtap="save">保存并使用</view>
+</view>
+</view>

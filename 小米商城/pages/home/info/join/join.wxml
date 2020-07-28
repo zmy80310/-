@@ -1,0 +1,19 @@
+<!--pages/home/style/style.wxml--> 
+ <view class="top-info">
+    <view class="info-img"><image src="{{shopData.src}}"></image></view>
+    <view class="info-size">
+      <view class="info-tit">{{shopData.name}}<text class="block"> </text>{{ver_type[0].ver_size}}</view>
+      <view class="info-pri">
+        <text class="money"><text>¥{{shopData.price}}</text>元</text>
+        <text class="mon-gry">3099</text>
+      </view>
+    </view>
+ </view>
+<view class="content">
+    <view class="num">
+      <view class="lo">购买数量</view>
+      <view class="num-up"><text bindtap="sub">-</text><text>{{number}}</text><text bindtap="add">+</text></view>
+    </view>
+<view class="prop"></view>
+</view>
+    <view class="sure" bindtap="submit">确定</view>

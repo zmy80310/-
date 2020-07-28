@@ -1,0 +1,13 @@
+<!--pages/classify/classify.wxml-->
+
+<view id="classify">
+<!-- 左侧导航列表 -->
+  <scroll-view scroll-y="true" class="scroll-left">
+      <view wx:for="{{listLeft}}" wx:key="{{index}}" data-index="{{index}}" class="{{leftIndex==index?'left-view-selected':'left-view'}}" bindtap="leftFn">{{item}}</view>
+  </scroll-view>
+
+  <!-- 右侧商品列表 -->
+  <scroll-view scroll-y="true" class="scroll-right" scroll-into-view="{{rightId}}" scroll-with-animation="true" bindscroll="rightFn">
+      <classitem wx:for="{{rightData}}" wx:key="{{index}}" mydata="{{item}}" id="r{{index}}" class="right-view"></classitem>
+  </scroll-view> 
+</view>

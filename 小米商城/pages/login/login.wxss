@@ -1,0 +1,150 @@
+/* pages/mine/login/login.wxss */
+.row1{
+  width: 100%;
+  margin: 30px 0 10px;
+  text-align: center;
+}
+.row1-img{
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+.row1-img>image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.center{
+  margin-top:20px;
+  font-weight: 400; 
+  font-size: 17px;
+}
+.item-account1,.item-account2{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+ 
+.row2{
+  padding: 0 15px;
+}
+.item-account1>text{
+  color: #999;
+  margin-right: 10px;
+}
+.item-account2>text{
+  color: #2EA5E5; 
+  font-size: 12px;
+}
+.item-account2>input{
+  width: 260px;
+}
+.warn{
+  padding: 5px 0;
+  font-size: 10px;
+  color: #ff6700;
+}
+icon{
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+}
+.Log-Reg,.Log{
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+}
+.Log-Reg{
+  background: #ff6700;
+  color: #fff;
+}
+.Log{
+  border: 2px solid #f3ecec;
+}
+.yz{
+  color: #999;
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+  top: -10px;
+}
+.style{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.log-style{
+  font-size: 10px;
+  color: #999;
+}
+.login-logo{
+  margin-top: 21px;
+}
+.line{
+  width: 122px;
+  height: 1px;
+  font-weight: lighter;
+  background: #f2f2f2;
+}
+.style-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 118px;
+  margin: 15px auto;
+
+}
+.img-fir{
+  width: 22px;
+  height: 22px;
+  background: #ED9090 url("https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png") no-repeat -36px center; 
+  border-radius: 50%;
+}
+.img-sec{
+  width: 22px;
+  height: 22px;
+  background: #6BB6EA url("https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png") no-repeat -57px center; 
+  border-radius: 50%;
+}
+.img-thr{
+  width: 22px;
+  height: 22px;
+  background: #00BE00 url("https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png") no-repeat -84px center; 
+  border-radius: 50%;
+} 
+.describ{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #999;
+  padding: 0 20px;
+  margin-top: 45px;
+}
+.cusom{
+  width: 1px;
+  height: 12px;
+  background: #999;
+}
+.active{
+  color: #333;
+}
+.row-active{
+  display: none;
+}
+.li{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 100px;
+}

@@ -1,0 +1,147 @@
+/* pages/find/goods/goods.wxss */
+page{
+   background: rgb(245, 242, 242)
+}
+.top{
+  width: 100%;
+  height: 100px;
+  background: url("http://img4.imgtn.bdimg.com/it/u=3774586054,194351730&fm=26&gp=0.jpg") no-repeat center;
+  background-size: cover;
+}
+.top1,.top2{
+  text-align: center;
+}
+.rule{
+position: relative;
+color: #fff;
+background: rgba(247, 244, 244, 0.459);
+border-radius: 10px; 
+font-size: 13px;
+width: 66px;
+text-align: center;
+left: 305px;
+padding: 3px 8px 3px 3px; 
+top: 8px;
+
+}
+.top1{
+  font-size: 24px;
+  color: #fff;
+}
+.top2{
+  font-size: 13px;
+  color: rgba(223, 213, 213, 0.658);
+  margin-top: 5px;
+}
+.user{
+  font-size: 12px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 20px;
+  background: #fff;
+  margin: 5px 0;
+}
+.user-img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user-img>image{
+  display: block;
+  width: 100%;
+  height: 100%;
+   border-radius: 50%;
+}
+.user-name{
+  width: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.user-des{
+  width: 200px;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list{
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+.list-img{
+  width: 30%;
+  height: 100%;
+}
+.list-img>image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.list-pri{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 30px;
+
+}
+.list-right{
+  width: 70%; 
+  height: 110px;
+  background-color: #fff;
+  padding: 10px 10px 10px 5px;
+  box-sizing: border-box;
+}
+.list-tit{
+  font-size: 14px;
+}
+.pri-left{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: rgba(255, 0, 0, 0.836)
+}
+.pri-right{
+  background: red;
+  color: orange;
+  padding: 8px 20px;
+  text-align: center;
+  border-radius: 3px;
+}
+.up{
+  font-size: 10px;
+  position: relative;
+  top: -3px;
+  margin-right: 1px;
+}
+.gry{
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 3px;
+}
+.list-active{
+  opacity: 0.6;
+  position: relative;
+}
+.zero{
+  color: #fff;
+  padding: 5px 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  font-size: 13px;
+  background: #333;
+
+}

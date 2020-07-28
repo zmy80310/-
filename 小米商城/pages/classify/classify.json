@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "classitem": "/pages/component/classitem/classitem"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#ececec",
+  "navigationBarTitleText": "小米商城Lite",
+  "navigationBarTextStyle": "black"
+}

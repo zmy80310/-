@@ -1,0 +1,19 @@
+<view class="list">
+  <view class="user_info" wx:for="{{shopData}}">
+    <view class="row1">
+      <text class="tel">{{item.cell}}</text>
+      <text class="name">{{item.name}}</text>
+      收
+    </view>
+    <view class="address">{{item.city}} {{item.address}}</view>
+     <view class="change">
+  <view class="change-img"><image src="/img/bianji.png" bindtap="newlt" data-id="{{item.id}}"></image></view>
+
+  <icon type="success" color="green" wx:if="{{list==list1}}"></icon> 
+  </view>
+  </view>
+ 
+</view>
+
+
+<view class="newAddres" bindtap="newly">新增收货地址</view>

@@ -1,0 +1,45 @@
+<!--pages/find/goods/goods.wxml-->
+ <view class="top">
+ <view class="rule">活动规则</view>
+  <view class="top1">1分拿好货</view>
+  <view class="top2">选择商品-邀请好友砍价-成功后下单发货</view>
+ </view>
+ <!--  -->
+ <view class="user">
+    <view class="user-img"><image src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3334926353,3063653837&fm=111&gp=0.jpg"></image></view>
+    <view class="user-name">小叶子</view>
+    <view class="user-des">砍价成功！0.01元领走小米10Pro</view>
+ </view>
+<!--  -->
+<view class="list" wx:for="{{goods}}">
+  <view class="list-img"><image src="{{item.src}}"></image></view>
+  <view class="list-right">
+    <view class="list-tit">{{item.name}}</view>
+    <view class="list-pri">
+      <view class="pri-left">
+        <text class="up">￥</text>
+        <text>{{item.price}}</text>
+        <view class="up">包邮</view>
+        <view class="gry">520元</view>
+      </view>
+      <view class="pri-right">砍价领走</view>
+    </view>
+  </view>
+</view>
+<!--  -->
+<view class="list list-active" wx:for="{{goods1}}">
+<view class="zero">已售罄</view>
+  <view class="list-img"><image src="{{item.src}}"></image></view>
+  <view class="list-right">
+    <view class="list-tit">{{item.name}}</view>
+    <view class="list-pri">
+      <view class="pri-left">
+        <text class="up">￥</text>
+        <text>{{item.price}}</text>
+        <view class="up">包邮</view>
+        <view class="gry">520元</view>
+      </view>
+      <view class="pri-right">砍价领走</view>
+    </view>
+  </view>
+</view>

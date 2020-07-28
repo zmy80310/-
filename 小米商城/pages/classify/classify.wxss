@@ -1,0 +1,32 @@
+/* pages/classify/classify.wxss */
+
+#classify{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+scroll-view{
+  height:1110rpx;
+}
+/* 左侧列表的样式 */
+.scroll-left{
+    width:180rpx;
+}
+.left-view{
+  font-size: 34rpx;
+  height:72rpx;
+  text-align: center;
+  line-height: 72rpx;
+  margin:40rpx 0;
+}
+.left-view-selected{
+  color:#ff6700;
+  font-size: 36rpx;
+  height:72rpx;
+  text-align: center;
+  line-height: 72rpx;
+  margin:40rpx 0;
+}
+.scroll-right{
+  width:570rpx;
+}

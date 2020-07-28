@@ -1,0 +1,13 @@
+<!--pages/components/classitem/classitem.wxml-->
+<!-- 分类页面右侧列表的模块组件 -->
+<view class="class-item">
+  <!-- 标题部分 -->
+  <view class="item-tit">- <text>{{list.title}}</text> -</view>
+  <!-- 内容部分 -->
+  <view class="item-con">
+      <view class="con-item" wx:for="{{list.content}}" wx:key="{{index}}" bindtap="onInfo" data-id="{{item.id}}">
+          <image class="ci-img" src="{{item.src}}"></image>
+          <view class="ci-tit">{{item.name}}</view>
+      </view>
+  </view>
+</view>

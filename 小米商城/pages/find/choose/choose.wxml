@@ -1,0 +1,23 @@
+<!--pages/find/choose/choose.wxml-->
+<view class="top">
+  <view class="top-img">
+    <image wx:for="{{choocetop}}" src="{{item.src}}"></image>
+  </view>
+  <view class="back">
+  <view class="new">
+  <view class="icon-img active1"><image src="/img/lingdang.png"></image><text>新品上市</text></view>
+  <view class="icon-img active2"><image src="/img/zhinanzhe.png"></image><text>新品评测</text></view>
+  <view class="icon-img active3"><image src="/img/shoubiao.png"></image><text>智能好物</text></view>
+  </view>
+  <view class="hot">爆品优选购</view>
+  <view class="goods-main">
+    <view class="goods-box" wx:for="{{chooce}}" bindtap="choo" data-id="{{item.id}}">
+      <view class="goods-img"><image src="{{item.src}}"></image></view>
+      <view class="title">{{item.name}}</view>
+      <view class="des">{{item.text}}</view>
+      <view class="pri"><text class="up">￥</text><text>{{item.price}}</text><text class="down">起</text></view>
+      <view class="buy">立即购买</view>
+    </view>
+  </view>
+  </view>
+</view>

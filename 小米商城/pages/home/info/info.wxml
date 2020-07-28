@@ -1,0 +1,38 @@
+<!--pages/home/info/info.wxml-->
+<!-- 自定义导航 -->
+
+<view id="info">
+      <image  class="swiper" src="{{shopData.src}}"></image>
+<view class="info-nav">
+  <view class="shop-tit">{{shopData.name}}</view>
+    <view class="shop-des">{{shopData.text}}</view>
+    <view class="shop-pri">¥{{shopData.price}}</view>
+    <image src="/img/zhuanf.png" class="infoImg"></image>
+</view>
+<view class="info-fo">
+    <view class="info-song">
+        <text class="infoT">送至</text>
+        <text class="infoT1" bindtap="skip">西安市  雁塔区</text>
+        <image class="info-img" src="/img/youj.png"></image>
+    </view> 
+  <view class="x"></view>
+  <view class="info-song">
+        <text class="infoT">已选</text>
+        <text class="infoT1">小米WiFi放大器Pro黑色</text>
+        <image class="info-img" src="/img/youj.png"></image>
+    </view> 
+  <view class="x"></view>
+</view>
+<view class="bbb"></view>
+<view class="instrument-bar">
+    <!-- 购物车按钮 -->
+    <view class="bar-car">
+      <image src="/img/icon-cart.png" bindtap="bar"></image>
+    </view>
+    <!-- 加入购物车 -->
+    <view class="bar-join" bindtap="add">加入购物车</view>
+    <!-- 立即购买 -->
+    <view class="bar-buy">立即购买</view>
+  </view>
+</view>
+

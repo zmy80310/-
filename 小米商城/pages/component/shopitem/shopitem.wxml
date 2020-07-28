@@ -1,0 +1,7 @@
+<!--pages/component/shopitem/shopitem.wxml-->
+<view class="shop-item" bindtap="cl">
+  <image class="shop-img" src="{{shopData.src}}"></image>
+  <view class="shop-tit">{{shopData.name}}</view>
+  <view class="shop-des">{{shopData.text}}</view>
+  <view class="shop-pri">¥{{shopData.price}}</view>
+</view>

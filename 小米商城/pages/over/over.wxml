@@ -1,0 +1,83 @@
+<!--pages/mine/mine.wxml-->
+<!--pages/mine/mine.wxml-->
+<view class="page">
+<!-- 第一行 -->
+<view class="header1" wx:if="{{top==true}}">
+      <image src="https://m.mi.com/static/img/avatar.76a75b8f17.png" class="img" bindtap="over"></image>
+      <view class="name">未登陆</view>
+      <view class="id">小米ID:</view>
+    </view>
+     <view class="header1" wx:if="{{top==false}}">
+      <image wx:if="{{top==false}}" src="../../img/wxtx.jpeg" class="img"></image>
+      <view class="name">程小毓</view>
+      <view class="id">小米ID:<text>1314520</text></view>
+       <image class="img1" src="../../img/ewm.jpeg" wx:if="{{top==false}}"></image>
+       <view class="write" bindtap="write">注销</view>
+    </view>
+    <!-- 二 -->
+    <view class="content">
+    <view class="list">
+        <view class="row list-image">
+          <image src="/img/money.jpeg"></image>
+        </view>
+        <view class="row">小米精品推荐</view>
+        <view class="row in">(内测)</view>
+    </view>
+    </view>
+    <!--  -->
+    <view class="content">
+       <view class="list line">
+         <view class="row list-image">
+           <image src="/img/order.png"></image>
+         </view>
+         <view class="row" bindtap="LOGIN">我的订单</view> 
+       </view>
+        <view class="list line">
+         <view class="row list-image">
+           <image src="/img/center.jpeg"></image>
+         </view>
+         <view class="row">会员中心</view> 
+       </view>
+        <view class="list line">
+         <view class="row list-image">
+           <image src="/img/coupon.png"></image>
+         </view>
+         <view class="row">我的优惠券</view> 
+       </view>
+       <view class="list line">
+         <view class="row list-image">
+           <image src="/img/fcode.png"></image>
+         </view>
+         <view class="row">我的F码</view> 
+       </view>
+        <view class="list line">
+         <view class="row list-image">
+           <image src="/img/gif.jpeg"></image>
+         </view>
+         <view class="row">我的礼物码</view> 
+       </view>
+        <view class="list line">
+         <view class="row list-image">
+           <image src="/img/red.png"></image>
+         </view>
+         <view class="row">我的红包</view> 
+       </view>
+    </view>
+
+    <view class="content">
+        <view class="list line">
+         <view class="row list-image">
+           <image src="/img/server.jpeg"></image>
+         </view>
+         <view class="row">在线客服</view> 
+       </view>
+        <view class="list line">
+         <view class="row list-image">
+           <image src="/img/setting.png"></image>
+         </view>
+         <view class="row">设置</view> 
+       </view>
+    </view>
+    
+</view>
+

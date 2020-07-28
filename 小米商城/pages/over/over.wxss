@@ -1,0 +1,126 @@
+/* pages/mine/mine.wxss */
+.page{
+   background: #ebebeb;
+   width: 100%;
+   height: 100%;
+   border: 1rpx solid #fff;
+}
+.header1{
+  width:100%;
+  height:100%;
+  background: #e5e5e5;
+  border:1px solid #e5e5e5;
+}
+.header1{
+  width:100%;
+  height:180rpx;
+  background: #fff;
+  margin-top:10rpx;
+  position:relative;
+}
+.img{
+  width:180rpx;
+  height: 160rpx;
+  margin-left:10rpx;
+  margin-top:10rpx;
+  border-radius: 5rpx;
+}
+.name{
+  font-size: 35rpx;
+  position: absolute;
+  top:38rpx;
+  left:220rpx;
+}
+.id{
+  position: absolute;
+  left:217rpx;
+  top:110rpx;
+  font-size: 25rpx;
+  color:#999;
+}
+.img1{
+  width:50rpx;
+  height:50rpx;
+  position: absolute;
+  right:100rpx;
+  top:calc(50% - 25rpx);
+}
+.header{
+  padding: 17rpx;
+  background-color: #fff;
+  margin: 20rpx 0;
+  position: relative;
+}
+.header>.row{
+ display: inline-block;
+ vertical-align: middle;
+}
+.user-image{
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 20rpx;
+}
+.user-image>image{
+display: block;
+width: 100%;
+height: 100%;
+}
+.row>.user-info{
+  font-size: 28rpx;
+}
+.last{
+  width: 60rpx;
+  height: 60rpx;
+  position: relative;
+  left: 220rpx;
+}
+.last>image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.list{
+  margin: 20rpx 0;
+  background: #fff;
+   padding: 17rpx;
+   /* border-bottom: 1rpx solid #999; */
+}
+.list>.row{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30rpx;
+}
+.list-image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 15rpx;
+}
+.list-image>image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.in{
+  color: #999;
+}
+.content{
+  background: #fff;
+  padding: 0 17rpx;
+  margin-bottom: 20rpx;
+}
+.line{
+  border-bottom: 1rpx solid #ebebeb;
+}
+.write{
+  position: absolute;
+bottom: 10rpx;
+right: 14rpx;
+background: red;
+width: 80rpx;
+height: 40rpx;
+text-align: center;
+line-height: 40rpx;
+font-size: 26rpx;
+color: #fff;
+
+}

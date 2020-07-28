@@ -1,0 +1,50 @@
+<!--pages/shop/shop.wxml-->
+<view class="cart" wx:if="{{look==true}}">
+<view class="cart-img"><image src="/img/icon-cart.png"></image></view>
+<view class="empty">购物车还是空的</view>
+<view class="gomi" bindtap="gomi">到小米商城逛逛</view>
+</view>
+
+<view class="cart-main">
+<view class="main-top">
+  <view class="main-des">小米发货商品（不含有品）满99元免运费</view>
+  <view class="main-buy">去凑单</view>
+</view>
+<!-- 商品 -->
+<view class="car-content"> 
+<!-- list1 -->
+ <view class="list" wx:for="{{shopData}}" >
+ <checkbox-group>
+ <label class="checkbox" >
+   <checkbox checked="{{look==true}}" class="checkbox"/> 
+   </label>
+ </checkbox-group>
+  <view class="list-img"><image src="{{item.src}}"></image></view>
+  <view class="list-name">{{item.name}}</view>
+  <view class="list-num"><text>{{item.number}}</text>x</view>
+  <view class="list-pri"><text>{{item.price}}</text>元</view>
+  <view class="sc" data-id="{{item.id}}" bindtap="move">删除</view>
+ </view>
+
+ 
+ <!-- 结算 -->
+  <view class="settle-body">
+ <view class="settle">
+ <!--  -->
+ <view class="choose">
+  <checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+ </view>
+ <!--  -->
+ <view class="item">
+  <view>合计:</view>
+  <view class="active"><text>{{numPri}}</text>元</view>
+ </view>
+ </view>
+ <view class="jie"><view>结算</view><view>(<text>{{number}}</text>)</view></view>
+</view>
+</view>
+</view>

@@ -1,0 +1,64 @@
+ .find{
+   width: 100%;
+   height: 100%;
+   background-color: #f3f2f2;
+ }
+ .fi-top{
+   width: 100%;
+   /* height: 50px; */
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 5px 0;
+   background: #fff;
+ }
+ .fitop-box{
+   width: 33.3%;
+   height: 100%;
+   text-align: center;
+ }
+ .fitop-box>text{
+   font-size: 13px;
+   color: #666;
+ }
+ .fitop-img{
+   margin: 10px auto;
+   width: 30px;
+   height: 30px;
+ }
+ .fitop-img>image{
+   display: block;
+   width: 100%;
+   height: 100%;
+ }
+ .content{
+   width: 98%;
+   margin: 0 auto;
+ }
+ .con-box{
+   text-align: center;
+   margin: 6px 0;
+ }
+ .con-img{
+   height: 200px;
+ }
+ .con-img>image{
+   display: block;
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .con-text{
+    
+   padding: 15px 0;
+   background-color: #fff;
+ }
+ .con-text>.active{
+   color: #fff;
+   background-color: #ff6700;
+   padding: 0 8px;
+   line-height: 25px;
+   margin: 0 8px;
+   font-size: 13px;
+ }

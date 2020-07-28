@@ -1,0 +1,73 @@
+/* pages/home/info/addres/newad/newad.wxss */
+.ad-wrap{
+background: #e5e5e5; 
+height: 1100rpx;
+padding-top: 40rpx;
+}
+.ad-one,.ad-two{
+width: 94%;
+background: #ffffff;
+margin: 0 auto;
+}
+.peo{
+background: #e5e5e5;
+font-size: 26rpx;
+color: #666666;
+padding-bottom: 10rpx;
+}
+.ad-nm{
+display: flex;
+justify-content: flex-start;
+flex-flow: row nowrap;
+padding: 15rpx 20rpx;
+font-size: 28rpx;
+}
+.ad-name1{
+margin-right: 40rpx;
+margin-top: 8rpx;
+font-size: 30rpx;
+}
+.ad-name2{
+  margin-top: 8rpx;
+margin-left: 20rpx;
+
+}
+.ad-two{
+margin-top: 40rpx;
+}
+.bottom{
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgb(247, 102, 6);
+padding: 30rpx 0;
+text-align: center;
+color: #ffffff;
+}
+.bottom1{
+  width:100%;
+  height:68rpx; 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  display: flex;
+  justify-content: space-around;
+  /* line-height: 60rpx; */
+}
+.move{
+  width:50%;
+  height:100%;
+  color:#f00;
+  text-align: center;
+  line-height: 68rpx;
+}
+.item{
+  width:50%;
+  height:100%;
+  background-color: #ff6700;
+  color:#fff;
+  text-align: center;
+  line-height:68rpx;
+}

@@ -1,0 +1,10 @@
+<!--pages/find/prize/prize.wxml-->
+ <view class="prize" wx:for="{{prize}}">
+  <view class="prize-img"><image src="{{item.src}}"></image></view>
+  <view class="prize-detail">
+  <view class="prize-tit">{{item.name}}</view>
+  <view class="pri-des">{{item.text}}</view>
+  </view>
+ </view>
+  
+

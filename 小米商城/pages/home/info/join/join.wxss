@@ -1,0 +1,126 @@
+/* pages/home/style/style.wxss */
+page{
+   background: rgb(245, 242, 242); 
+}
+.top-info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  background: #fff;
+  padding: 10px 0;
+}
+.info-img{
+width: 65px;
+height: 74px;
+}
+.info-img>image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.info-size{
+  width: 70%;
+}
+.info-tit{
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+}
+.money{
+  font-size: 14px;
+  color: #ff6700;
+  margin-right: 10px;
+}
+.mon-gry{
+  color: #999;
+  text-decoration: line-through;
+  font-size: 12px;
+}
+.content{
+  padding: 15px 15px;
+  background: #fff;
+}
+.version{
+  position: relative;
+}
+.ver{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+.lo{
+  color: #999;
+  font-size: 12px;
+  position: absolute; 
+  left: 0;
+}
+.ver-size{
+  padding:5px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #999;
+}
+.active{
+  color: #ff6700;
+  border: 1px solid #ff6700;
+}
+.block{
+   padding: 0 5px;
+}
+.whi{
+  height: 25px;
+  width: 100%;
+}
+
+.num,.color{
+  position: relative;
+  height: 47px;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background: #999;
+  margin: 11px 0;
+}
+.color text{
+  font-size: 13px;
+  padding: 5px 5px;
+  margin-right: 5px;
+  border: 1px solid #999;
+}
+ .num-up{
+   position: absolute;
+   top: 10px;
+   right: 0;
+ }
+ .num-up>text{
+   border: 1px solid #999;
+   line-height: 23px;
+   padding: 5px 15px;
+ }
+ .sure{
+ width: 100%;
+line-height: 47px;
+background: #ff6700;
+color: #fff;
+position: absolute;
+bottom: 0;
+text-align: center;
+
+ }
+ .prop{
+   width: 100%;
+   height: 132px;
+   background: #fff;
+ }
+ .fz>.active{
+  border: 1px solid #ff6700;
+  }
